@@ -1,3 +1,9 @@
+.news {
+  background: #ff3; }
+
+#block-login {
+  border: 1px solid #000; }
+
 body {
   /* mobile styles */
   background: #fff; }
@@ -15,3 +21,22 @@ body {
 @media screen and (max-width: 768px) and (min-width: 320px) {
   body {
     text-align: center; } }
+
+.red {
+  color: red; }
+
+.blue {
+  color: blue; }
+
+#wrapper,
+#wrapper2 {
+  width: 200px; }
+  #wrapper .inner,
+  #wrapper2 .inner {
+    width: 150px; }
+    #wrapper .inner p a,
+    #wrapper2 .inner p a {
+      color: #ff0000; }
+
+.blue {
+  color: blue; }

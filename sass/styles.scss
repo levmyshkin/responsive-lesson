@@ -8,6 +8,12 @@ $mobile: 320px;
 $tablet: 768px;
 $desktop: 1024px;
 
+// Pages
+@import "pages/news";
+
+// Blocks
+@import "blocks/login";
+
 body {
   /* mobile styles */
   background: #fff;
@@ -30,4 +36,35 @@ body {
   body {
     text-align: center;
   }
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+#wrapper,
+#wrapper2 {
+  width: 200px;
+
+  .inner {
+    width: 150px;
+
+    h2 {
+
+    }
+
+    p {
+      a {
+        color: #ff0000;
+      }
+    }
+  }
+}
+
+.blue {
+  color: blue;
 }
