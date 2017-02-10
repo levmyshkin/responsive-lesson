@@ -1,0 +1,17 @@
+body {
+  /* mobile styles */
+  background: #fff; }
+  @media screen and (min-width: 768px) {
+    body {
+      background: #dd3333; } }
+  @media screen and (min-width: 1024px) {
+    body {
+      background: #33dd33; } }
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  body {
+    color: #fff; } }
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  body {
+    text-align: center; } }
